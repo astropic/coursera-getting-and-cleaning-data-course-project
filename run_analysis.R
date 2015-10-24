@@ -39,7 +39,7 @@ X_train <- read.table("train/X_train.txt")
 y_train <- read.table("train/y_train.txt")
 subject_train <- read.table("train/subject_train.txt")
 
-# Merge "test"and "train" tables to "merge" tables
+# Merge "test" and "train" tables to "merge" tables
 X_merge <- rbind(X_test, X_train)
 y_merge <- rbind(y_test, y_train)
 subject_merge <- rbind(subject_test, subject_train)
